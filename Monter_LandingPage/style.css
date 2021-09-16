@@ -1,0 +1,86 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100vh;
+  width: 100%;
+  background-image: url(landing_page_image.jpg);
+  background-position: center;
+  background-color: rgb(32, 32, 32);
+  background-size: cover;
+  padding-right: 5%;
+  padding-left: 10%;
+  box-sizing: border-box;
+  position: relative;
+}
+.btn{
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 1.5px solid #ffffff;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  margin-top: 70px;
+  margin-left: 0px;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px #250101;
+  text-align: end;
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: .2s ease-in-out;
+  color: rgb(233, 202, 134);
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 1s;
+}
+nav {
+  flex: 1;
+  padding-left: 250px;
+}
+nav ul li {
+  display:inline-block;
+  list-style: none;
+  margin: 0 30px;
+  padding-top: 4%;
+  padding-bottom: 10%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.content .text {
+  position: relative;
+  max-width: 1600px;
+}
+.content .text h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 50px;
+  line-height: 1em;
+  letter-spacing: .1em;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 2px 0px #161010;
+  text-align:justify;
+}
+.content .text h1 span {
+  font-size: 30px;
+}
+
+
+
+
+
